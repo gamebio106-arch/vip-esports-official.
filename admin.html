@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIP ESPORTS — Admin</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#050b16;color:#fff;font-family:Arial,sans-serif;padding:20px}
+header{text-align:center;padding:20px;background:#0b1930;border-radius:12px}
+h1{color:#24aaff;margin:0}
+p{color:#aab8cc}
+.card{background:#101d30;border:1px solid #263c58;border-radius:12px;padding:16px;margin-top:18px}
+input,button{width:100%;padding:13px;margin-top:10px;border-radius:8px;font-size:16px}
+input{background:#07111f;border:1px solid #34506e;color:white}
+button{background:#1688e8;color:white;border:0;font-weight:bold}
+.note{font-size:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<header>
+<h1>VIP ESPORTS</h1>
+<p>ADMIN PANEL</p>
+</header>
+
+<div class="card">
+<h2>Admin access</h2>
+<p class="note">This page is only a starter design. Secure login must be connected before using it to manage real player data.</p>
+<input id="adminEmail" type="email" placeholder="Admin email">
+<input id="adminPassword" type="password" placeholder="Password">
+<button onclick="alert('Admin login is not connected yet. Set up Firebase authentication first.')">Login</button>
+</div>
+
+<div class="card">
+<h2>Tournament registrations</h2>
+<p class="note">Player registrations will appear here after we connect a database and secure admin login.</p>
+</div>
+
+</body>
+</html>
