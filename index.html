@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VIP ESPORTS OFFICIAL</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#050b16;color:white;font-family:Arial,sans-serif}
+header{padding:22px;text-align:center;background:#0b1930;border-bottom:2px solid #168cff}
+h1{color:#24aaff;font-size:32px;margin:8px}
+header p{letter-spacing:3px;font-size:12px}
+nav{display:flex;justify-content:center;gap:18px;flex-wrap:wrap;padding:15px}
+a{color:#68c7ff;text-decoration:none}
+.hero{text-align:center;padding:65px 20px;background:radial-gradient(circle,#123c68,#050b16 70%)}
+.hero h2{font-size:42px;margin:10px}
+.hero span{color:#22aaff}
+.btn{display:inline-block;background:#087ee5;color:white;padding:13px 20px;border-radius:8px;font-weight:bold;margin:8px}
+section{padding:35px 18px;max-width:950px;margin:auto}
+h2{color:#39b8ff}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px}
+.card{background:#0c192b;border:1px solid #19466f;border-radius:12px;padding:20px}
+label{display:block;margin-top:12px}
+input,select{width:100%;padding:12px;margin-top:6px;background:#07101e;color:white;border:1px solid #286092;border-radius:6px}
+button{border:0;cursor:pointer}
+footer{text-align:center;padding:25px;background:#0b1930;color:#a9c6e0;font-size:13px}
+.note{color:#a9c6e0;font-size:13px;line-height:1.5}
+</style>
+</head>
+<body>
+<header>
+<h1>⚡ VIP ESPORTS ⚡</h1>
+<p>OFFICIAL • FREE FIRE TOURNAMENTS</p>
+</header>
+<nav>
+<a href="#tournaments">Tournaments</a>
+<a href="#register">Register</a>
+<a href="#results">Results</a>
+</nav>
+<div class="hero">
+<p>WELCOME TO THE BATTLE ARENA</p>
+<h2>PLAY HARD.<br><span>RISE ABOVE.</span></h2>
+<p>Build your squad. Fight for Booyah.</p>
+<a class="btn" href="#tournaments">Explore Tournaments</a>
+<a class="btn" href="#register">Join Now</a>
+</div>
+<section id="tournaments">
+<h2>🏆 Tournaments</h2>
+<div class="cards">
+<div class="card"><h3>VIP Squad Showdown</h3><p>Squad battle • Custom room</p><p>Entry fee: To be announced</p><p>Prize: To be announced</p><a class="btn" href="#register">Register Interest</a></div>
+<div class="card"><h3>Night Ops Cup</h3><p>Competitive squad event</p><p>Schedule: Coming soon</p><a class="btn" href="#register">Join</a></div>
+<div class="card"><h3>Rookie Rise</h3><p>New squad community event</p><p>Schedule: Coming soon</p><a class="btn" href="#register">Join</a></div>
+</div>
+<p class="note">Events and prizes are examples until officially confirmed by the organizer.</p>
+</section>
+<section id="register">
+<h2>🎮 Player Registration</h2>
+<div class="card">
+<form onsubmit="event.preventDefault();alert('This is a demo form. Your registration has NOT been sent. Contact the organizer to confirm your entry.');">
+<label>Player name / IGN</label><input required placeholder="Enter player name">
+<label>Free Fire UID</label><input required inputmode="numeric" placeholder="Enter UID">
+<label>Team name</label><input required placeholder="Enter squad name">
+<label>Select tournament</label>
+<select required><option value="">Choose tournament</option><option>VIP Squad Showdown</option><option>Night Ops Cup</option><option>Rookie Rise</option></select>
+<button class="btn" type="submit">Submit Interest</button>
+</form>
+<p class="note">Demo only: this form does not send or save registrations online.</p>
+</div>
+</section>
+<section id="results">
+<h2>🥇 Results & Leaderboard</h2>
+<div class="card"><p>Results will be published here after verified matches.</p><p>Stay ready. Play fair. Rise together.</p></div>
+</section>
+<footer>
+<strong>VIP ESPORTS OFFICIAL</strong><br>
+Community tournaments • Play fair • Rise together
+<p>Fan-made community website. Not affiliated with Garena.</p>
+</footer>
+</body>
+</html>
